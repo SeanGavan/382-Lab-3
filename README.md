@@ -1,5 +1,25 @@
 382-Lab-3
 =========
+Objectives
+----------
+The purpose of the lab was to become familiar with a device that used peripherals, ports, GPIO, multiplexing, polling, debouncing, and the serial peripheral interface. This was done through using the display device to create an image. The lab also provided exsposure to the logic analyzer.
+
+Code
+----
+Code for this lab can be found in the Code folder.
+
+Debugging
+---------
+
+Test Methodology / Results
+----------------
+
+Observations / Conclusions
+--------------------------
+
+Documentation
+-------------
+
 
 Answers to Lab Questions
 ------------------------
@@ -19,3 +39,5 @@ Answers to Lab Questions
 
 Writing Modes
 -------------
+(Code for the picture)
+
