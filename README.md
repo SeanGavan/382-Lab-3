@@ -6,20 +6,20 @@ The purpose of the lab was to become familiar with a device that used peripheral
 
 Code
 ----
-Code for this lab can be found in the Code folder.
+Code for this lab can be found in the Code folder (lab3.asm).
 
 Debugging
 ---------
-
+Pressing the button would no longer write to display. Reverted back to original code to fix.
 Test Methodology / Results
 ----------------
-
+Altered different values to see what was actually writing to the display. Couldn't find anything useful. 
 Observations / Conclusions
 --------------------------
-
+I have no idea how this code works, nor can I really use it or the display effectively.
 Documentation
 -------------
-
+None
 
 Answers to Lab Questions
 ------------------------
@@ -32,10 +32,10 @@ Answers to Lab Questions
 
 | Line  | Command/Data | 8-bit packet |
 | :---: | :----------: | :----------: |
-|       |              |              |
-|       |              |              |
-|       |              |              |
-|       |              |              |
+|   204    |       1      |      10101010        |
+|   214    |       0      |      00001111       |
+|   201    |       1      |      11110000       |
+|   186    |       1      |      00001111        |
 
 Writing Modes
 -------------
