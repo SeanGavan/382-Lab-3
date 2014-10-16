@@ -39,5 +39,6 @@ Answers to Lab Questions
 
 Writing Modes
 -------------
-(Code for the picture)
+![alt text](https://raw.githubusercontent.com/SeanGavan/382-Lab-3/master/Images/Writing.png "Writing Modes")
+
 
