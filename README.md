@@ -59,7 +59,7 @@ Writing Modes
 
 Turn in Times
 ------------
-Prelab - On Time
-Logic Analyzer - 2 Days Late
-Required Functionality - 2 Days Late
+Prelab - On Time  
+Logic Analyzer - 2 Days Late  
+Required Functionality - 2 Days Late  
 
