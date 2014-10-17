@@ -61,10 +61,18 @@ while0:
 	bit.b	#8, &P2IN					; bit 3 of P1IN clear?
 	jz		while0						; Yes, branch back and wait
 
-	mov		#NOKIA_DATA, R12			; For testing just draw an 8 pixel high
-	mov		#0xE7, R13					; beam with a 2 pixel hole in the center
-	call	#writeNokiaByte
+	mov		#0x00, R14					; added another register to count for the next loop
 
+eightColumns:							; loop added to write 8 columns
+	mov		#NOKIA_DATA, R12			; For testing just draw an 8 pixel high
+	mov		#0xFF, R13					; beam with a 2 pixel hole in the center (orig: E7)
+	call	#writeNokiaByte
+	inc		R14
+	cmp		#0x08,R14					; runs through the loop 8 times for 8 columns of 8 pixels high
+	jz		continueCode
+	jmp		eightColumns
+
+continueCode:
 	inc		R10							; since rows are 8 times bigger than columns
 	and.w	#0x07, R10					; wrap over the row mod 8
 	inc		R11							; just let the columm overflow after 92 buttons
