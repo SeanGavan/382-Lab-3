@@ -57,9 +57,7 @@ Writing Modes
 -------------
 ![alt text](https://raw.githubusercontent.com/SeanGavan/382-Lab-3/master/Images/Writing.png "Writing Modes")
 
-Turn in Times
+Turn in Time
 ------------
-Prelab - On Time  
-Logic Analyzer - 2 Days Late  
 Required Functionality - 2 Days Late  
 
