@@ -11,15 +11,22 @@ Code for this lab can be found in the Code folder (lab3.asm).
 Debugging
 ---------
 Pressing the button would no longer write to display. Reverted back to original code to fix.
+Changing 0xE7 to 0xFF made one complete column of pixels, but only 1 column. Added a loop for multiple column writes.
+
 Test Methodology / Results
 ----------------
-Altered different values to see what was actually writing to the display. Couldn't find anything useful. 
+Altered different values to see what was actually writing to the display. Changed the 0xE7 to 0xFF to create a full column  
+of pixels.
+Created a loop within the code that would write the full column 8 times. This loop uses a counter register to do so.
+
 Observations / Conclusions
 --------------------------
-I have no idea how this code works, nor can I really use it or the display effectively.
+After receiving tips from Capt. Trimble, I was able to figure out how to make the box by using a jump loop and adjusting what  
+was being stored as the data to write onto the display.
 Documentation
 -------------
-None
+Captain Trimble told me how to change the 0xE7 data into 0xFF to create a full 8 pixel column. She also told me that  
+a loop would be effective in creating 7 additional columns to create the entire 8x8 pixel box.
 
 Answers to Lab Questions
 ------------------------
