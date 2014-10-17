@@ -44,6 +44,8 @@ Answers to Lab Questions
 |   2    |       1      |      11111111        |
 |   3    |       1      |      11111111        |
 |   4    |       0      |      00000001        |  
+The data is this way because the multiple 3's correspond to the multiple columns of pixels. Lines 2 and 3 tell us that  
+the button is active, and 4 tells us when the switch is on and then beginning to turn off.  
 
 RESET Signal on falling edge questions:  
 _______________________________________
