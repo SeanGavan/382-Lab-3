@@ -15,7 +15,6 @@ Changing 0xE7 to 0xFF made one complete column of pixels, but only 1 column. Add
 
 Test Methodology / Results
 ----------------
-The logic analyzer results are based off the required functionality modifications that were made. 
 Altered different values to see what was actually writing to the display. Changed the 0xE7 to 0xFF to create a full column  
 of pixels.
 Created a loop within the code that would write the full column 8 times. This loop uses a counter register to do so.
@@ -40,16 +39,15 @@ Answers to Lab Questions
 
 | Line  | Command/Data | 8-bit packet |
 | :---: | :----------: | :----------: |
-|   1    |       3      |      33333337        |
-|   2    |       1      |      11111111        |
-|   3    |       1      |      11111111        |
-|   4    |       0      |      00000001        |  
-The data is this way because the multiple 3's correspond to the multiple columns of pixels. Lines 2 and 3 tell us that  
-the button is active, and 4 tells us when the switch is on and then beginning to turn off.  
+|   1   |    3        |       33311337       | correlates to actually displaying pixels (data) 
+|   2   |    1        |       11111111       | CLK 
+|   3   |    1        |       11100111       | MOSI PIN / DATA - 3 pixels, 2 blanks, 3 pixels
+|   4   |    0        |       00000001       | CS - when the display is active (0) or waiting (1) for input
+
 
 RESET Signal on falling edge questions:  
 _______________________________________
-How many counts does the firmware loop count down from?  Starts at E ends at 6  
+How many counts does the firmware loop count down from?  0xFFFF  
 Amount of time each iteration of the delay loop consumes? 2 ns
 
 Writing Modes
