@@ -5,6 +5,13 @@
 ;	Draw a new vertical bar on the Nokia 1202 display everytime that SW3
 ;	is pressed and released.
 ;-------------------------------------------------------------------------------
+;-------------------------------------------------------------------------------
+;	Editted by Sean Gavan
+;	Fall 2014 - 16 Oct. 14
+;	MSP430G2553
+;	Draw 8 vertical bars on the Nokia 1202 display everytime that SW3
+;	is pressed and released.
+;-------------------------------------------------------------------------------
 	.cdecls C,LIST,"msp430.h"		; BOILERPLATE	Include device header file
 
 
