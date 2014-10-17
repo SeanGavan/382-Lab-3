@@ -27,6 +27,7 @@ Documentation
 -------------
 Captain Trimble told me how to change the 0xE7 data into 0xFF to create a full 8 pixel column. She also told me that  
 a loop would be effective in creating 7 additional columns to create the entire 8x8 pixel box.
+I worked with C2C Chris Kiernan to make sure we understood the logic analyzer questions and what the results we got meant. This helped in answering said questions. 
 
 Answers to Lab Questions
 ------------------------
@@ -36,6 +37,8 @@ Answers to Lab Questions
 | 276   | #NOKIA_CMD | remove upper nibble, mask with 0xB0 | Select a row of 4-bits |
 | 288   | #NOKIA_CMD | copy top of stack, shift right 4 bits, remove upper nibble, mask with #0x10 | 2 sets of 4-bits |
 | 294   | #0x00      | copy top of stack, remove upper nibble | Copy the top of the stack |
+
+![alt text](https://raw.githubusercontent.com/SeanGavan/382-Lab-3/master/Images/IMG_0744.JPG "Logic Analyzer")
 
 | Line  | Command/Data | 8-bit packet |
 | :---: | :----------: | :----------: |
