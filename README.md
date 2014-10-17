@@ -15,6 +15,7 @@ Changing 0xE7 to 0xFF made one complete column of pixels, but only 1 column. Add
 
 Test Methodology / Results
 ----------------
+The logic analyzer results are based off the required functionality modifications that were made. 
 Altered different values to see what was actually writing to the display. Changed the 0xE7 to 0xFF to create a full column  
 of pixels.
 Created a loop within the code that would write the full column 8 times. This loop uses a counter register to do so.
