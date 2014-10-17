@@ -40,9 +40,14 @@ Answers to Lab Questions
 | Line  | Command/Data | 8-bit packet |
 | :---: | :----------: | :----------: |
 |   1    |       3      |      33333337        |
-|   2    |       1      |      11111111       |
-|   3    |       1      |      11111111       |
-|   4    |       0      |      00000001        |
+|   2    |       1      |      11111111        |
+|   3    |       1      |      11111111        |
+|   4    |       0      |      00000001        |  
+
+RESET Signal on falling edge questions:  
+_______________________________________
+How many counts does the firmware loop count down from?  
+Amount of time each iteration of the delay loop consumes?
 
 Writing Modes
 -------------
