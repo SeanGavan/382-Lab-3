@@ -46,8 +46,8 @@ Answers to Lab Questions
 
 RESET Signal on falling edge questions:  
 _______________________________________
-How many counts does the firmware loop count down from?  
-Amount of time each iteration of the delay loop consumes?
+How many counts does the firmware loop count down from?  Starts at E ends at 6  
+Amount of time each iteration of the delay loop consumes? 2 ns
 
 Writing Modes
 -------------
